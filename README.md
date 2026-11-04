@@ -1,6 +1,6 @@
 # comitatocava.org
 
-Web institucional del CAVA (Comitato delle Associazioni Venete dell'Argentina). Sitio estático en HTML, CSS y JS puros: no hace falta instalar ni compilar nada.
+Web de presentación del CAVA (Comitato delle Associazioni Venete dell'Argentina) para la **Consulta dei Veneti nel Mondo 2026**. No es la landing institucional completa: presenta qué es el CAVA en el marco de la Consulta. Las menciones al evento están en el `<head>` (title, description, og/twitter), en la etiqueta `.event-badge` del hero y en el footer. Sitio estático en HTML, CSS y JS puros: no hace falta instalar ni compilar nada.
 
 ## Estructura
 

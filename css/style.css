@@ -209,6 +209,17 @@ p { text-wrap: pretty; }
 .hero .lead { font-size: var(--fs-lead); max-width: 46rem; color: rgba(255, 255, 255, .88); line-height: 1.45; }
 .hero-logo { width: clamp(7.5rem, 5rem + 8vw, 12rem); height: auto; filter: brightness(0) invert(1); opacity: .95; }
 .eyebrow { font-size: clamp(.8rem, .75rem + .3vw, 1.05rem); font-weight: 900; letter-spacing: .12em; text-transform: uppercase; color: var(--oro); }
+/* Etiqueta del evento (Consulta 2026) arriba del título */
+.event-badge {
+  display: inline-flex; align-items: center; gap: .6em;
+  padding: .55em 1.1em; border-radius: 999px;
+  border: 1px solid rgba(207, 174, 98, .55);
+  background: rgba(10, 18, 30, .38);
+  -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
+  font-size: clamp(.75rem, .7rem + .3vw, .95rem); font-weight: 700; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--oro); text-align: center;
+}
+.event-badge-dot { flex: none; width: .5em; height: .5em; border-radius: 50%; background: var(--oro); box-shadow: 0 0 0 .25em rgba(207, 174, 98, .2); }
 /* Botón "Chi siamo ↓" al pie del hero */
 .hero-down {
   position: absolute; z-index: 2; left: 50%; translate: -50% 0;
